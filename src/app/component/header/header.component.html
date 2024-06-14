@@ -6,9 +6,10 @@
     </div>
     <ul class="mobileMenuList">
       @for (link of listPath; track link.name){
-        <a class="mobileMenuElement" href="#{{link.urlAdres}}">
-          <li>{{link.name}}</li>
-        </a>
+        @if (link.active){
+          <a class="mobileMenuElement" href="#{{link.urlAdres}}">
+             <li>{{link.name}}</li>
+          </a>}
       }
     </ul>
   </div>
@@ -23,9 +24,11 @@
       </button>
       <ul class="desktopView">
         @for (link of listPath ; track link.name ){
+          @if(link.active){
           <a href="#{{link.urlAdres}}">
             <li>{{link.name}}</li>
           </a>
+          }
         }
       </ul>
       <div class="logo">

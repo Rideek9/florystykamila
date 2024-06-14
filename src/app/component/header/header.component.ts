@@ -1,7 +1,6 @@
 import {Component, input} from '@angular/core';
 import {MainbuttonComponent} from "../buttons/mainbutton/mainbutton.component";
 import {IconsComponent} from "../icons/icons.component";
-import {take} from "rxjs";
 
 @Component({
   selector: 'app-header',
@@ -14,10 +13,10 @@ export class HeaderComponent {
 
 
   listPath = [
-    {name: 'o nas', urlAdres: 'about'},
-    {name: 'dostawa i płatność', urlAdres: 'payAndDelvery'},
-    {name: 'katalog', urlAdres: 'catalog'},
-    {name: 'kontakt', urlAdres: 'contact'},
+    {name: 'o nas', urlAdres: 'about', active: true},
+    {name: 'dostawa i płatność', urlAdres: 'payAndDelvery', active: true},
+    {name: 'katalog', urlAdres: 'catalog', active: false},
+    {name: 'kontakt', urlAdres: 'contact', active: true},
   ]
 
   imagePath = "img/headerImageFirst.jpeg"
@@ -28,7 +27,7 @@ export class HeaderComponent {
   numberRandom = Math.floor(Math.random() * this.tekstHeader.length);
 
 
-  activeMobileView:boolean = true
+  activeMobileView:boolean = false
   changeView(){
     this.activeMobileView = !this.activeMobileView;
   }

@@ -20,6 +20,8 @@
     height: 100%
     display: flex
     flex-direction: column
+    @media(max-width: $brakePoints-sm)
+      background-image: linear-gradient(rgba($mainColor-light,0.6),rgba($mainColor-light,0.6))
 
 
 
@@ -29,6 +31,8 @@ menu
   display: flex
   justify-content: space-around
   align-items: center
+  @media(max-width: $brakePoints-md)
+    width: 100%
 
 
 .desktopView
@@ -75,12 +79,19 @@ section
   @media(max-width: $brakePoints-md)
     margin: 2rem 6rem 0 auto
 
+  @media(max-width: $brakePoints-sm)
+    margin: 10rem auto
+    width: 100%
+    padding: 2rem
+
+
 
   & > p
     font-size: 3.5rem
     font-family: $secondFont
     color: $mainColor-veryDark
     text-align: center
+
 
 
 .mobileMenuArea
