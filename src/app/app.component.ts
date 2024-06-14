@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './component/header/header.component';
 import { AboutComponent } from './component/about/about.component';
 import { VideoSecitonComponent } from './component/video-seciton/video-seciton.component';
+import { YouHaveSectionComponent } from './component/you-have-section/you-have-section.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { VideoSecitonComponent } from './component/video-seciton/video-seciton.c
     HeaderComponent,
     AboutComponent,
     VideoSecitonComponent,
+    YouHaveSectionComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass',

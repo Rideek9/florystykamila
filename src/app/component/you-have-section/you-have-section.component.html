@@ -1,0 +1,19 @@
+<section class="wrapperMoreInfo">
+  <app-name-section nameSection="wybierając nas otrzymujesz" />
+  <div class="wrapperContentInfo">
+    <div class="imageSection"></div>
+    <ul class="listSection">
+      @for (element of listInfo; track element.name) {
+
+        <div class="listElement">
+          <div class="iconTick">
+            <app-icons name="svg/tickIcon.svg" nameClass="tickColor" />
+          </div>
+          <li>{{ element.name }}</li>
+        </div>
+
+
+      }
+    </ul>
+  </div>
+</section>
