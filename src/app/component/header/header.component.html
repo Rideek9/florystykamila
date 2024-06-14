@@ -1,33 +1,32 @@
-@if (activeMobileView){
-
+@if (activeMobileView) {
   <div class="mobileMenuArea" (click)="changeView()">
     <div class="logo logoTop">
       <app-icons name="svg/LogiMila.svg" nameClass="logo__icon-mobile" />
     </div>
     <ul class="mobileMenuList">
-      @for (link of listPath; track link.name){
-        @if (link.active){
-          <a class="mobileMenuElement" href="#{{link.urlAdres}}">
-             <li>{{link.name}}</li>
-          </a>}
+      @for (link of listPath; track link.name) {
+        @if (link.active) {
+          <a class="mobileMenuElement" href="#{{ link.urlAdres }}">
+            <li>{{ link.name }}</li>
+          </a>
+        }
       }
     </ul>
   </div>
 }
 
-
-<header class="wrapper" style="background-image: url({{imagePath}})">
+<header class="wrapper" style="background-image: url({{ imagePath }})">
   <div class="blurWrapper">
     <menu>
       <button class="menuButton mobileView" (click)="changeView()">
         <span></span>
       </button>
       <ul class="desktopView">
-        @for (link of listPath ; track link.name ){
-          @if(link.active){
-          <a href="#{{link.urlAdres}}">
-            <li>{{link.name}}</li>
-          </a>
+        @for (link of listPath; track link.name) {
+          @if (link.active) {
+            <a href="#{{ link.urlAdres }}">
+              <li>{{ link.name }}</li>
+            </a>
           }
         }
       </ul>
@@ -36,9 +35,8 @@
       </div>
     </menu>
     <section>
-      <p>{{tekstHeader[numberRandom]}}</p>
-      <app-mainbutton [nameButton]="'sprawdź'"/>
+      <p>{{ tekstHeader[numberRandom] }}</p>
+      <app-mainbutton [nameButton]="'sprawdź'" />
     </section>
-
   </div>
 </header>

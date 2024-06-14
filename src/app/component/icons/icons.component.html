@@ -1,10 +1,12 @@
-@if (!nameClass()){
+@if (!nameClass()) {
   <div
-    style="mask: url({{name()}}) no-repeat center/contain; background-color: black" >
-  </div>
+    style="mask: url({{
+      name()
+    }}) no-repeat center/contain; background-color: black"
+  ></div>
 } @else {
   <div
-    style="mask: url({{name()}}) no-repeat center/contain" class="{{nameClass()}}">
-  </div>
-
+    style="mask: url({{ name() }}) no-repeat center/contain"
+    class="{{ nameClass() }}"
+  ></div>
 }

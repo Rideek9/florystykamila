@@ -5,9 +5,9 @@ import { Component, input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './icons.component.html',
-  styleUrl: './icons.component.sass'
+  styleUrl: './icons.component.sass',
 })
 export class IconsComponent {
-  name = input<string>()
-  nameClass = input<string>()
+  name = input<string>();
+  nameClass = input<string>();
 }

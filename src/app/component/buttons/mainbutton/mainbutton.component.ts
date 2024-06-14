@@ -5,9 +5,9 @@ import { Component, input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './mainbutton.component.html',
-  styleUrl: './mainbutton.component.sass'
+  styleUrl: './mainbutton.component.sass',
 })
 export class MainbuttonComponent {
-  nameButton = input<string>()
-  hashUrlAdresButton = input<string>()
+  nameButton = input<string>();
+  hashUrlAdresButton = input<string>();
 }

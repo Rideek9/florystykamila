@@ -1,0 +1,14 @@
+<section class="wrapperAbout" id="about">
+  <app-name-section [nameSection]="'o nas'" />
+  <div class="wrapperContent">
+    @for (element of informationComponents; track element.path) {
+      <div class="elementAbout">
+        <div class="logo">
+          <app-icons name="svg/{{element.path}}" nameClass="iconAbout" />
+        </div>
+        <h3>{{ element.title }}</h3>
+        <p>{{ element.descryption }}</p>
+      </div>
+    }
+  </div>
+</section>
