@@ -22,4 +22,16 @@ export class VideoSecitonComponent {
   ];
 
   randomNumber = Math.floor(Math.random() * this.descryptionContent.length);
+
+  ngAfterViewInit() {
+    const video: HTMLVideoElement = document.getElementById(
+      'backround-video'
+    ) as HTMLVideoElement;
+    if (video) {
+      video.muted = true;
+      video.play().catch((err) => {
+        console.error('Error vider', err);
+      });
+    }
+  }
 }
