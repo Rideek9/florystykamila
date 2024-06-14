@@ -29,6 +29,8 @@ export class VideoSecitonComponent {
     ) as HTMLVideoElement;
     if (video) {
       video.muted = true;
+      video.autoplay = true;
+      video.playsInline = true;
       video.play().catch((err) => {
         console.error('Error vider', err);
       });
