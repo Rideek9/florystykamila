@@ -1,0 +1,32 @@
+@import '../../../../styles/variables'
+
+a
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 0.6rem 0
+  background-color: $seconddColor-dark
+  border-radius: 1.5rem
+  cursor: pointer
+  min-width: 10rem
+  max-width: fit-content
+  text-decoration: none
+  transition: all .3s
+
+  &:hover
+    background-color: $mainColor-veryDark
+    transform: scale(1.05)
+
+  &:active
+    transform: scale(0.95)
+    box-shadow: 0 0 2rem -0.5rem $mainColor-veryDark
+
+
+  & > button
+    background-color: transparent
+    border: none
+    color: $mainColor-light
+    letter-spacing: 1px
+    font-size: 1rem
+    font-family: $contentFont-second
+    cursor: pointer

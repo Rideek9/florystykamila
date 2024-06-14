@@ -1,0 +1,156 @@
+@import '../../../styles/variables'
+
+.wrapper
+  height: 60vh
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0)
+
+  @media(max-width: $brakePoints-md)
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0)
+
+  @media(max-width: $brakePoints-sm)
+    height: 90vh
+    background-position: -15rem
+
+  .blurWrapper
+    background-image: linear-gradient(rgba($seconddColor-dark,0.3),rgba($seconddColor-dark,0.3))
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+
+
+
+menu
+  width: 70%
+  margin: 0 1rem 0 auto
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+
+.desktopView
+  display: flex
+  width: 70%
+  justify-content: space-around
+
+  @media(max-width: $brakePoints-md)
+    display: none
+
+  & > a
+    color: $mainColor-veryDark
+    font-size: 1.8rem
+    font-family: $menuFont
+    font-weight: 100
+    text-decoration: none
+    transition: all .3s
+
+    &:hover
+      color: $mainColor-dark
+
+
+.mobileView
+  display: none
+
+  @media(max-width: $brakePoints-md)
+    display: block
+
+
+
+.logo
+  width: 150px
+  height: 100px
+
+
+section
+  width: 40%
+  margin: 2rem 10rem 0 auto
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 2rem
+
+  @media(max-width: $brakePoints-md)
+    margin: 2rem 6rem 0 auto
+
+
+  & > p
+    font-size: 3.5rem
+    font-family: $secondFont
+    color: $mainColor-veryDark
+    text-align: center
+
+
+.mobileMenuArea
+  position: fixed
+  z-index: 100
+  background-color: $seconddColor-dark
+  width: 100%
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.menuButton
+  position: fixed
+  top: 1rem
+  right: 1rem
+  width: 3rem
+  height: 3rem
+  border: none
+  background-color: transparent
+  cursor: pointer
+
+  & > span
+    display: block
+    width: 80%
+    height: 3px
+    background-color: $mainColor-veryDark
+    border-radius: 1rem
+    position: relative
+
+    &::before
+      content: ""
+      display: block
+      position: absolute
+      top: .7rem
+      width: 100%
+      height: 3px
+      background-color: $mainColor-veryDark
+
+
+    &::after
+      content: ""
+      display: block
+      position: absolute
+      bottom: .7rem
+      width: 100%
+      height: 3px
+      background-color: $mainColor-veryDark
+
+
+.mobileMenuList
+  display: flex
+  flex-direction: column
+  gap: 1rem
+  align-items: center
+
+
+
+.mobileMenuElement
+  font-size: 2rem
+  text-decoration: none
+  color: $mainColor-light
+  font-family: $menuFont
+
+  &:hover
+    color: $seconddColor-light
+
+
+
+.logoTop
+  position: absolute
+  top: 0
