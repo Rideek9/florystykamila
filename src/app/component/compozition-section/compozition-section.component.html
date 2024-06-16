@@ -1,0 +1,15 @@
+<section>
+  <app-name-section nameSection="przykłądowe kompozycje" />
+  <div class="wrapperComposition">
+    @for (element of photosGroup; track element.code; let i = $index) {
+      <div class="elementComposition" [ngClass]="{'bigElement': i === 4 || i===3}">
+        <img alt="" class="photoComposition" src="/katalog/example/{{element.code}}.jpg">
+        <div class="hoverComposition">
+          <h4>{{ element.grup }}</h4>
+          <p>{{ element.code }}</p>
+        </div>
+      </div>
+    }
+  </div>
+  <app-mainbutton hashUrlAdresButton="catalog" nameButton="katalog" />
+</section>

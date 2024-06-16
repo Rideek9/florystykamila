@@ -9,6 +9,8 @@ import { MainbuttonComponent } from '../buttons/mainbutton/mainbutton.component'
   styleUrl: './video-seciton.component.sass',
 })
 export class VideoSecitonComponent {
+  contactNumber: string = '507187527';
+
   descryptionContent = [
     {
       title: 'Wyrazimy Twoje uczucia w najpiękniejszy sposób.',

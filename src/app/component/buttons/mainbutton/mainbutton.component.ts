@@ -10,4 +10,5 @@ import { Component, input } from '@angular/core';
 export class MainbuttonComponent {
   nameButton = input<string>();
   hashUrlAdresButton = input<string>();
+  tefNumberButton = input<string>();
 }

@@ -1,5 +1,15 @@
-<a href="{{ hashUrlAdresButton() ? hashUrlAdresButton() : '/' }}">
-  <button>
-    {{ nameButton() ? nameButton() : 'sprwadź' }}
-  </button>
-</a>
+@if (tefNumberButton()) {
+  <a href="tel:+48{{tefNumberButton()}}">
+    <button>
+      {{ nameButton() ? nameButton() : 'sprwadź' }}
+    </button>
+  </a>
+
+} @else {
+  <a href="{{ hashUrlAdresButton() ? hashUrlAdresButton() : '/' }}">
+    <button>
+      {{ nameButton() ? nameButton() : 'sprwadź' }}
+    </button>
+  </a>
+}
+

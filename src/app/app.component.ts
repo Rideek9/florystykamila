@@ -4,6 +4,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { AboutComponent } from './component/about/about.component';
 import { VideoSecitonComponent } from './component/video-seciton/video-seciton.component';
 import { YouHaveSectionComponent } from './component/you-have-section/you-have-section.component';
+import { CompozitionSectionComponent } from './component/compozition-section/compozition-section.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { YouHaveSectionComponent } from './component/you-have-section/you-have-s
     AboutComponent,
     VideoSecitonComponent,
     YouHaveSectionComponent,
+    CompozitionSectionComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass',
