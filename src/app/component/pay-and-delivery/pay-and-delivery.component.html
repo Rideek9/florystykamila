@@ -1,0 +1,36 @@
+<div class="payAndDeliverWrapper">
+  <app-name-section nameSection="dostawa i płatność" />
+  <div class="payDescryptionWrapper">
+    <p class="infoElementPay">Wszystkie dostawy realizowane są na terenie Warszawy i
+      okolic po
+      uprzednim zamówieniu telefonicznym.
+      Koszty dostawy zależne są od wielkości zamówienia oraz lokalizacji. Wartość dostawy
+      podawana jest przy zamówieniu telefonicznym.</p>
+    <p class="infoElementPay">Pracownia nie gwarantuje możliwości dostawy, ze względu
+      na ograniczoną ilość pojazdów. </p>
+  </div>
+
+  <div class="sectionPay">
+    <p>Możliwe rodzaje płatności</p>
+    <div class="paySectionWrapper">
+      @for (payMethod of payMethods; track payMethod.name) {
+        <div class="payIconWrapper">
+          <div class="payIcon">
+            <app-icons name="{{payMethod.icon}}" nameClass="payColor" />
+          </div>
+          <p class="payName">{{ payMethod.name }}</p>
+        </div>
+      }
+    </div>
+    <div class="telWrapper">
+      <p class="infoElementPay">Więcej informacji dotyczących płatności pod nr
+        telefonu</p>
+      <a class="infoElementPay telSize"
+         href="tel:{{phoneNumber()}}">{{
+          phoneNumber()?.slice(0, 3) + '-' +
+          phoneNumber()?.slice(3, 6) + '-' +
+          phoneNumber()?.slice(6, 9)
+        }}</a>
+    </div>
+  </div>
+</div>

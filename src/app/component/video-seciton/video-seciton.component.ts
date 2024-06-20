@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { MainbuttonComponent } from '../buttons/mainbutton/mainbutton.component';
 
 @Component({
@@ -9,7 +9,7 @@ import { MainbuttonComponent } from '../buttons/mainbutton/mainbutton.component'
   styleUrl: './video-seciton.component.sass',
 })
 export class VideoSecitonComponent {
-  contactNumber: string = '507187527';
+  contactNumber = input<string>();
 
   descryptionContent = [
     {
