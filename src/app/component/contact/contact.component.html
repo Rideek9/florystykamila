@@ -1,0 +1,16 @@
+<div class="mainWrapperContact">
+  <app-name-section nameSection="kontakt" />
+  <div>
+    <div class="wrapperContact">
+      @for (element of dataElement; track element.name) {
+        <div class="elementContact">
+          <div style="width: 3rem; height: 3rem">
+            <app-icons name="{{element.icon}}" nameClass="payColor" />
+          </div>
+          <p>{{ element.firstLine }}</p>
+          <p>{{ element.secondLine || null }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</div>

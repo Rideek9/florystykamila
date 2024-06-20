@@ -1,0 +1,29 @@
+@import "../../../styles/variables"
+
+.mainWrapperContact
+  margin: 5rem 0
+
+.wrapperContact
+  width: 80%
+  margin: 0 auto
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  padding: 3rem 0
+  align-items: start
+
+  @media(max-width: $brakePoints-sm)
+    grid-template-columns: 1fr
+    gap: 3rem
+
+
+.elementContact
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+
+p
+  font-size: 1.2rem
+  text-align: center
+

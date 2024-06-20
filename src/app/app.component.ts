@@ -6,6 +6,7 @@ import { VideoSecitonComponent } from './component/video-seciton/video-seciton.c
 import { YouHaveSectionComponent } from './component/you-have-section/you-have-section.component';
 import { CompozitionSectionComponent } from './component/compozition-section/compozition-section.component';
 import { PayAndDeliveryComponent } from './component/pay-and-delivery/pay-and-delivery.component';
+import { ContactComponent } from './component/contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -18,10 +19,11 @@ import { PayAndDeliveryComponent } from './component/pay-and-delivery/pay-and-de
     YouHaveSectionComponent,
     CompozitionSectionComponent,
     PayAndDeliveryComponent,
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass',
 })
 export class AppComponent {
-  phoneNumber: string = '507187527';
+  phoneNumber: string = '502854612';
 }
