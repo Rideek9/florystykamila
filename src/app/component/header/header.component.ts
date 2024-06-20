@@ -17,13 +17,14 @@ export class HeaderComponent {
     { name: 'kontakt', urlAdres: 'contact', active: true },
   ];
 
-  imagePath = 'img/headerImageFirst.jpeg';
+  imagePath = 'img/headerImageFirst.webp';
 
   //content to heder descyptrion
   tekstHeader = ['Kompozycje, które mówią więcej niż słowa'];
   numberRandom = Math.floor(Math.random() * this.tekstHeader.length);
 
   activeMobileView: boolean = false;
+
   changeView() {
     this.activeMobileView = !this.activeMobileView;
   }

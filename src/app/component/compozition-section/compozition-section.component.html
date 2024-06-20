@@ -3,7 +3,7 @@
   <div class="wrapperComposition">
     @for (element of photosGroup; track element.code; let i = $index) {
       <div class="elementComposition" [ngClass]="{'bigElement': i === 4 || i===3}">
-        <img alt="" class="photoComposition" src="/katalog/example/{{element.code}}.jpg">
+        <img alt="" class="photoComposition" src="/katalog/example/{{element.code}}.webp">
         <div class="hoverComposition">
           <h4>{{ element.grup }}</h4>
           <p>{{ element.code }}</p>
