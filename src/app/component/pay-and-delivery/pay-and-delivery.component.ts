@@ -15,15 +15,15 @@ export class PayAndDeliveryComponent {
   payMethods = [
     {
       name: 'gotówka',
-      icon: 'svg/cashIcon.svg',
+      icon: 'cash',
     },
     {
       name: 'przelew na konto',
-      icon: 'svg/bankIcon.svg',
+      icon: 'bank',
     },
     {
       name: 'blik',
-      icon: 'svg/blikIcon.svg',
+      icon: 'blick',
     },
   ];
 }

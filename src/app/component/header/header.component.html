@@ -1,8 +1,6 @@
 @if (activeMobileView) {
   <div class="mobileMenuArea" (click)="changeView()">
-    <div class="logo logoTop">
-      <app-icons name="svg/LogiMila.svg" nameClass="logo__icon-mobile" />
-    </div>
+    <i class="mf-icon-logoMila menuLogo"></i>
     <ul class="mobileMenuList">
       @for (link of listPath; track link.name) {
         @if (link.active) {
@@ -30,9 +28,9 @@
           }
         }
       </ul>
-      <div class="logo">
-        <app-icons name="svg/LogiMila.svg" nameClass="logo__icon" />
-      </div>
+      <a href="/" class="logo-mila-desctop">
+        <i class="mf-icon-logoMila "></i>
+      </a>
     </menu>
     <section>
       <p>{{ tekstHeader[numberRandom] }}</p>

@@ -1,0 +1,43 @@
+@import '../../../styles/variables.sass'
+
+
+.footerWrapper
+  width: 100%
+  background-color: $mainColor-veryDark
+  height: 20rem
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%)
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+
+i
+  font-size: 7rem
+  color: $mainColor-light
+  position: absolute
+  top: 4rem
+
+
+.informationFooter
+  position: absolute
+  bottom: 1rem
+
+  @media(max-width: $brakePoints-md)
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: .5rem
+
+  & > p
+    font-size: 1rem
+    display: inline-block
+    color: $mainColor-light
+    margin: 0 1rem
+
+    @media(max-width: $brakePoints-md)
+      display: block
+
+    & > a
+      text-decoration: none
+      color: $mainColor-light

@@ -15,9 +15,7 @@
     <div class="paySectionWrapper">
       @for (payMethod of payMethods; track payMethod.name) {
         <div class="payIconWrapper">
-          <div class="payIcon">
-            <app-icons name="{{payMethod.icon}}" nameClass="payColor" />
-          </div>
+          <i class="mf-icon-{{payMethod.icon}} iconPay"></i>
           <p class="payName">{{ payMethod.name }}</p>
         </div>
       }

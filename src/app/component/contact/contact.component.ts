@@ -15,18 +15,18 @@ export class ContactComponent {
       name: 'address',
       firstLine: 'ul. Palisadowa 43',
       secondLine: '01-938 Warszawa',
-      icon: 'svg/compasIcon.svg',
+      icon: 'compass',
     },
     {
       name: 'phone',
       firstLine: '+48 502 854 612',
       secondLine: 'Katarzyna Fonder',
-      icon: 'svg/phoneIcon.svg',
+      icon: 'phone',
     },
     {
       name: 'email',
       firstLine: 'kontakt@milaflorystyka.pl',
-      icon: 'svg/emailIcon.svg',
+      icon: 'mail',
     },
   ];
 }

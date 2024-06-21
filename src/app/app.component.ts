@@ -7,6 +7,7 @@ import { YouHaveSectionComponent } from './component/you-have-section/you-have-s
 import { CompozitionSectionComponent } from './component/compozition-section/compozition-section.component';
 import { PayAndDeliveryComponent } from './component/pay-and-delivery/pay-and-delivery.component';
 import { ContactComponent } from './component/contact/contact.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import { ContactComponent } from './component/contact/contact.component';
     CompozitionSectionComponent,
     PayAndDeliveryComponent,
     ContactComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass',
