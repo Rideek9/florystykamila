@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { CatalogElementsComponent } from '../../component/catalog-elements/catalog-elements.component';
 
 @Component({
   selector: 'app-catalog',
   standalone: true,
-  imports: [],
+  imports: [CatalogElementsComponent],
   templateUrl: './catalog.component.html',
-  styleUrl: './catalog.component.sass'
+  styleUrl: './catalog.component.sass',
 })
-export class CatalogComponent {
-
-}
+export class CatalogComponent {}
