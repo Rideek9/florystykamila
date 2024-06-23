@@ -1,0 +1,961 @@
+[
+    {
+        "UniCode": "1",
+        "Category": "Wieniec",
+        "Code": "WIE-007",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "2",
+        "Category": "Wieniec",
+        "Code": "WIE-050",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "3",
+        "Category": "Wieniec",
+        "Code": "WIE-046",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "4",
+        "Category": "Łezka",
+        "Code": "LEZ-001",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "5",
+        "Category": "Wieniec",
+        "Code": "WIE-011",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "6",
+        "Category": 'Półwieniec',
+        "Code": "WPO-001",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "7",
+        "Category": "Wieniec",
+        "Code": "WIE-066",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "8",
+        "Category": "Wieniec",
+        "Code": "WIE-031",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "9",
+        "Category": "Wieniec",
+        "Code": "WIE-027",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "10",
+        "Category": "Wieniec",
+        "Code": "WIE-070",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "11",
+        "Category": "Wieniec",
+        "Code": "WIE-071",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "12",
+        "Category": "Wieniec",
+        "Code": "WIE-026",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "13",
+        "Category": "Wieniec",
+        "Code": "WIE-030",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "14",
+        "Category": "Wieniec",
+        "Code": "WIE-067",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "15",
+        "Category": "Wieniec",
+        "Code": "WIE-010",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "16",
+        "Category": "Wieniec",
+        "Code": "WIE-047",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "17",
+        "Category": "Wieniec",
+        "Code": "WIE-051",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "18",
+        "Category": "Wieniec",
+        "Code": "WIE-006",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "19",
+        "Category": 'Półwieniec',
+        "Code": "WPO-007",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "20",
+        "Category": "Wieniec",
+        "Code": "WIE-060",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "21",
+        "Category": "Wiązanka",
+        "Code": "WIA-013",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "22",
+        "Category": "Wiązanka",
+        "Code": "WIA-007",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "23",
+        "Category": "Wieniec",
+        "Code": "WIE-037",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "24",
+        "Category": "Wieniec",
+        "Code": "WIE-021",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "25",
+        "Category": 'Półwieniec',
+        "Code": "WPO-011",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "26",
+        "Category": "Wieniec",
+        "Code": "WIE-076",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "27",
+        "Category": "Wiązanka",
+        "Code": "WIA-006",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "28",
+        "Category": "Wiązanka",
+        "Code": "WIA-012",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "29",
+        "Category": "Wiązanka",
+        "Code": "WIA-004",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "30",
+        "Category": "Wiązanka",
+        "Code": "WIA-010",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "31",
+        "Category": "Wieniec",
+        "Code": "WIE-001",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "32",
+        "Category": "Wieniec",
+        "Code": "WIE-056",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "33",
+        "Category": "Łezka",
+        "Code": "LEZ-011",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "34",
+        "Category": "Wieniec",
+        "Code": "WIE-040",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "35",
+        "Category": "Łezka",
+        "Code": "LEZ-007",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "36",
+        "Category": "Wiązanka",
+        "Code": "WIA-011",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "37",
+        "Category": "Wieniec",
+        "Code": "WIE-017",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "38",
+        "Category": "Wiązanka",
+        "Code": "WIA-005",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "39",
+        "Category": "Wiązanka",
+        "Code": "WIA-001",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "40",
+        "Category": "Wieniec",
+        "Code": "WIE-016",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "41",
+        "Category": "Wiązanka",
+        "Code": "WIA-015",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "42",
+        "Category": "Wiązanka",
+        "Code": "WIA-029",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "43",
+        "Category": "Łezka",
+        "Code": "LEZ-006",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "44",
+        "Category": "Wieniec",
+        "Code": "WIE-041",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "45",
+        "Category": "Łezka",
+        "Code": "LEZ-010",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "46",
+        "Category": "Wieniec",
+        "Code": "WIE-057",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "47",
+        "Category": "Wiązanka",
+        "Code": "WIA-028",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "48",
+        "Category": "Wiązanka",
+        "Code": "WIA-014",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "49",
+        "Category": "Wiązanka",
+        "Code": "WIA-016",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "50",
+        "Category": "Wiązanka",
+        "Code": "WIA-002",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "51",
+        "Category": "Wieniec",
+        "Code": "WIE-077",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "52",
+        "Category": 'Półwieniec',
+        "Code": "WPO-010",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "53",
+        "Category": "Wieniec",
+        "Code": "WIE-020",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "54",
+        "Category": "Wieniec",
+        "Code": "WIE-036",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "55",
+        "Category": "Wiązanka",
+        "Code": "WIA-003",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "56",
+        "Category": "Wieniec",
+        "Code": "WIE-061",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "57",
+        "Category": "Wiązanka",
+        "Code": "WIA-017",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "58",
+        "Category": 'Półwieniec',
+        "Code": "WPO-006",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "59",
+        "Category": "Wieniec",
+        "Code": "WIE-019",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "60",
+        "Category": "Wiązanka",
+        "Code": "WIA-032",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "61",
+        "Category": "Wiązanka",
+        "Code": "WIA-026",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "62",
+        "Category": "Łezka",
+        "Code": "LEZ-009",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "63",
+        "Category": "Wieniec",
+        "Code": "WIE-058",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "64",
+        "Category": "Wieniec",
+        "Code": "WIE-074",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "65",
+        "Category": 'Półwieniec',
+        "Code": "WPO-013",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "66",
+        "Category": "Wieniec",
+        "Code": "WIE-023",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "67",
+        "Category": "Wieniec",
+        "Code": "WIE-035",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "68",
+        "Category": "Wiązanka",
+        "Code": "WIA-027",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "69",
+        "Category": "Wiązanka",
+        "Code": "WIA-033",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "70",
+        "Category": "Wieniec",
+        "Code": "WIE-062",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "71",
+        "Category": 'Półwieniec',
+        "Code": "WPO-005",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "72",
+        "Category": "Wiązanka",
+        "Code": "WIA-019",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "73",
+        "Category": "Wieniec",
+        "Code": "WIE-015",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "74",
+        "Category": "Wiązanka",
+        "Code": "WIA-025",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "75",
+        "Category": "Wiązanka",
+        "Code": "WIA-031",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "76",
+        "Category": "Łezka",
+        "Code": "LEZ-005",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "77",
+        "Category": "Wieniec",
+        "Code": "WIE-042",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "78",
+        "Category": "Łezka",
+        "Code": "LEZ-013",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "79",
+        "Category": "Wieniec",
+        "Code": "WIE-054",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "80",
+        "Category": "Wieniec",
+        "Code": "WIE-003",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "81",
+        "Category": "Wieniec",
+        "Code": "WIE-039",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "82",
+        "Category": "Wiązanka",
+        "Code": "WIA-030",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "83",
+        "Category": 'Półwieniec',
+        "Code": "WPO-009",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "84",
+        "Category": "Wiązanka",
+        "Code": "WIA-024",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "85",
+        "Category": "Wiązanka",
+        "Code": "WIA-018",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "86",
+        "Category": "Wiązanka",
+        "Code": "WIA-020",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "87",
+        "Category": 'Półwieniec',
+        "Code": "WPO-008",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "88",
+        "Category": "Wiązanka",
+        "Code": "WIA-008",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "89",
+        "Category": "Wieniec",
+        "Code": "WIE-038",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "90",
+        "Category": "Wieniec",
+        "Code": "WIE-002",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "91",
+        "Category": "Wieniec",
+        "Code": "WIE-055",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "92",
+        "Category": "Łezka",
+        "Code": "LEZ-012",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "93",
+        "Category": "Wieniec",
+        "Code": "WIE-043",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "94",
+        "Category": "Łezka",
+        "Code": "LEZ-004",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "95",
+        "Category": "Wiązanka",
+        "Code": "WIA-009",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "96",
+        "Category": "Wieniec",
+        "Code": "WIE-014",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "97",
+        "Category": "Wiązanka",
+        "Code": "WIA-021",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "98",
+        "Category": 'Półwieniec',
+        "Code": "WPO-004",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "99",
+        "Category": "Wieniec",
+        "Code": "WIE-063",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "100",
+        "Category": "Wiązanka",
+        "Code": "WIA-023",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "101",
+        "Category": "Wieniec",
+        "Code": "WIE-034",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "102",
+        "Category": "Wieniec",
+        "Code": "WIE-022",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "103",
+        "Category": 'Półwieniec',
+        "Code": "WPO-012",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "104",
+        "Category": "Wieniec",
+        "Code": "WIE-075",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "105",
+        "Category": "Wieniec",
+        "Code": "WIE-059",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "106",
+        "Category": "Łezka",
+        "Code": "LEZ-008",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "107",
+        "Category": "Wiązanka",
+        "Code": "WIA-022",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "108",
+        "Category": "Wieniec",
+        "Code": "WIE-018",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "109",
+        "Category": "Wieniec",
+        "Code": "WIE-013",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "110",
+        "Category": "Łezka",
+        "Code": "LEZ-003",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "111",
+        "Category": "Wieniec",
+        "Code": "WIE-044",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "112",
+        "Category": "Wieniec",
+        "Code": "WIE-052",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "113",
+        "Category": "Wieniec",
+        "Code": "WIE-005",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "114",
+        "Category": "Wieniec",
+        "Code": "WIE-029",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "115",
+        "Category": "Wieniec",
+        "Code": "WIE-068",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "116",
+        "Category": "Wieniec",
+        "Code": "WIE-048",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "117",
+        "Category": "Wieniec",
+        "Code": "WIE-009",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "118",
+        "Category": "Wieniec",
+        "Code": "WIE-072",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "119",
+        "Category": "Wieniec",
+        "Code": "WIE-025",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "120",
+        "Category": "Wieniec",
+        "Code": "WIE-033",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "121",
+        "Category": "Wieniec",
+        "Code": "WIE-064",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "122",
+        "Category": 'Półwieniec',
+        "Code": "WPO-003",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "123",
+        "Category": 'Półwieniec',
+        "Code": "WPO-002",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "124",
+        "Category": "Wieniec",
+        "Code": "WIE-065",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "125",
+        "Category": "Wieniec",
+        "Code": "WIE-032",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "126",
+        "Category": "Wieniec",
+        "Code": "WIE-024",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "127",
+        "Category": 'Półwieniec',
+        "Code": "WPO-014",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "128",
+        "Category": "Wieniec",
+        "Code": "WIE-073",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "129",
+        "Category": "Wieniec",
+        "Code": "WIE-008",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "130",
+        "Category": "Wieniec",
+        "Code": "WIE-049",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "131",
+        "Category": "Wieniec",
+        "Code": "WIE-069",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "132",
+        "Category": "Wieniec",
+        "Code": "WIE-028",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "133",
+        "Category": "Wieniec",
+        "Code": "WIE-004",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "134",
+        "Category": "Wieniec",
+        "Code": "WIE-053",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "135",
+        "Category": "Wieniec",
+        "Code": "WIE-045",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "136",
+        "Category": "Łezka",
+        "Code": "LEZ-002",
+        "Flower": "frash",
+        "Substate": "frash"
+    },
+    {
+        "UniCode": "137",
+        "Category": "Wieniec",
+        "Code": "WIE-012",
+        "Flower": "frash",
+        "Substate": "frash"
+    }
+]
