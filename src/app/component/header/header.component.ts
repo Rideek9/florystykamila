@@ -11,10 +11,10 @@ import { IconsComponent } from '../icons/icons.component';
 })
 export class HeaderComponent {
   listPath = [
-    { name: 'o nas', urlAdres: 'about', active: true },
-    { name: 'dostawa i płatność', urlAdres: 'payAndDelvery', active: true },
-    { name: 'katalog', urlAdres: 'catalog', active: false },
-    { name: 'kontakt', urlAdres: 'contact', active: true },
+    { name: 'o nas', urlAdres: '#about', active: true },
+    { name: 'dostawa i płatność', urlAdres: '#payAndDelvery', active: true },
+    { name: 'katalog', urlAdres: 'catalog', active: true },
+    { name: 'kontakt', urlAdres: '#contact', active: true },
   ];
 
   imagePath = 'img/headerImageFirst.webp';

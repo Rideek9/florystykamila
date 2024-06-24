@@ -4,7 +4,7 @@
     <ul class="mobileMenuList">
       @for (link of listPath; track link.name) {
         @if (link.active) {
-          <a class="mobileMenuElement" href="#{{ link.urlAdres }}">
+          <a class="mobileMenuElement" href="{{ link.urlAdres }}">
             <li>{{ link.name }}</li>
           </a>
         }
@@ -22,7 +22,7 @@
       <ul class="desktopView">
         @for (link of listPath; track link.name) {
           @if (link.active) {
-            <a href="#{{ link.urlAdres }}">
+            <a href="{{ link.urlAdres }}">
               <li>{{ link.name }}</li>
             </a>
           }

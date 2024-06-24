@@ -1,4 +1,25 @@
-<!--@for(element of data; track element.UniCode){-->
-<!--  <img src="/katalog/allImage/{{element.Code}}.webp" alt="{{element.Code}}"-->
-<!--       style="width: 300px">-->
-<!--}-->
+<div>
+  <ul>
+    @for(category of categoryElement; track categoryElement){
+      <li>
+        <a href="/catalog/#{{category.category}}">{{category.category}}</a>
+      </li>
+    }
+  </ul>
+
+@for(category of categoryElement; track categoryElement){
+  <div class="catalogWrapper" id="{{category.category}}">
+    <app-name-section nameSection="{{category.category}}" />
+    <div class="catalogSection">
+    @for(item of data; track data.UniCode){
+      @if(category.codeCategory === item.Category ){
+      <div class="catalogElement">
+        <img src="/katalog/allImage/{{item.Code}}.webp" alt="">
+        <p class="categoryCode">{{item.Code}}</p>
+      </div>
+      }
+    }
+    </div>
+  </div>
+}
+</div>
