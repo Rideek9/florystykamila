@@ -35,6 +35,7 @@ export class CatalogElementsComponent implements OnInit {
   ];
 
   data: any;
+  likeItems: string[] = [];
 
   ngOnInit() {
     this.fetchData();
@@ -43,6 +44,15 @@ export class CatalogElementsComponent implements OnInit {
   async fetchData() {
     const response = await fetch('database/catalog.json');
     this.data = await response.json();
-    console.log(this.data);
+  }
+
+  handleClick(item: string): void {
+    if (this.likeItems.includes(item)) {
+      this.likeItems.splice(this.likeItems.indexOf(item), 1);
+      return;
+    }
+    this.likeItems.push(item);
+
+    console.log(this.likeItems);
   }
 }

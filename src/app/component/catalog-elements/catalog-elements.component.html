@@ -1,22 +1,21 @@
 <div>
-<!--  <ul class="categoryMenu">-->
-<!--    @for(category of categoryElement; track categoryElement){-->
-<!--      <li>-->
-<!--        <a href="/catalog/#{{category.category}}">{{category.category}}</a>-->
-<!--      </li>-->
-<!--    }-->
-<!--  </ul>-->
-
-
-  @for(category of categoryElement; track categoryElement){
+  @for(category of categoryElement; track category.category){
     <div class="catalogWrapper" id="{{category.category}}">
       <app-name-section nameSection="{{category.category}}" />
       <div class="catalogSection">
-      @for(item of data; track data.UniCode){
+      @for(item of data; track item.Code){
         @if(category.codeCategory === item.Category ){
         <div class="catalogElement">
           <img src="/katalog/allImage/{{item.Code}}.webp" alt="">
-          <p class="categoryCode">{{item.Code}}</p>
+          <div class="informationSection">
+            <p class="categoryCode">{{item.Code}}</p>
+            <i (click)="handleClick(item.Code)"
+               class="  {{likeItems.includes(item.Code) ? 'activeHeart'
+                : ''}} fa-solid fa-heart"
+               ></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
         </div>
         }
       }

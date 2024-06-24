@@ -26,7 +26,6 @@
   background-color: $seconddColor-light
   border-radius: 1rem
   overflow: hidden
-  cursor: pointer
 
 
   & > img
@@ -36,10 +35,30 @@
     object-fit: cover
     object-position: center
 
+.informationSection
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  width: 100%
+  transition: all .5s
+
   & > .categoryCode
-    font-size: 1.4rem
+    font-size: 1.2rem
     font-family: $mainFont
     padding: 1rem 0
+
+  & > i
+    font-size: 1.6rem
+    position: absolute
+    color: $seconddColor-dark
+    cursor: pointer
+
+  & > .fa-magnifying-glass
+    left: 2rem
+
+  & > .fa-heart
+    right: 2rem
 
 
 .categoryMenu
@@ -62,4 +81,9 @@
 
       &:hover
         color: $seconddColor-dark
+
+
+
+.activeHeart
+  color: red !important
 
