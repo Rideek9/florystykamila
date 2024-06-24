@@ -9,22 +9,28 @@ import { NameSectionComponent } from '../name-section/name-section.component';
   styleUrl: './catalog-elements.component.sass',
 })
 export class CatalogElementsComponent implements OnInit {
+  serchElement = 'all';
+
   categoryElement = [
     {
       category: 'wieńce',
       codeCategory: 'Wieniec',
+      active: true,
     },
     {
       category: 'wiązanki',
       codeCategory: 'Wiązanka',
+      active: true,
     },
     {
       category: 'półwieńce',
       codeCategory: 'Półwieniec',
+      active: true,
     },
     {
       category: 'łezki',
       codeCategory: 'Łezka',
+      active: true,
     },
   ];
 
