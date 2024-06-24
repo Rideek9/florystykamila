@@ -36,7 +36,6 @@ export class CatalogElementsComponent implements OnInit {
 
   data: any;
   likeItems: string[] = [];
-  localStorageItem: string[] = [];
 
   ngOnInit() {
     this.fetchData();

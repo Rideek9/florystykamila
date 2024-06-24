@@ -8,6 +8,7 @@ import { CompozitionSectionComponent } from './component/compozition-section/com
 import { PayAndDeliveryComponent } from './component/pay-and-delivery/pay-and-delivery.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { LikeItemsComponent } from './component/like-items/like-items.component';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,7 @@ import { FooterComponent } from './component/footer/footer.component';
     PayAndDeliveryComponent,
     ContactComponent,
     FooterComponent,
+    LikeItemsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass',

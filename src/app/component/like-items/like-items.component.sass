@@ -1,0 +1,40 @@
+@import '../../../styles/variables'
+
+.wrapperHeart
+  position: fixed
+  z-index: 100
+  bottom: 2rem
+  right: 2rem
+
+
+.elementHeart
+  position: relative
+  cursor: pointer
+  box-shadow: 0 0 1rem 1rem $mainColor-light
+  background-color: $mainColor-light
+  border-radius: 50%
+
+  & > i
+    font-size: 2.5rem
+    color: red
+
+  & > p
+    font-size: .8rem
+    position: absolute
+    top: 30%
+    right: -.4rem
+    width: 1.5rem
+    height: 1.5rem
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: $seconddColor-dark
+    color: $mainColor-light
+    font-weight: 700
+
+
+
+.elementIn
+  color: $seconddColor-light
+
