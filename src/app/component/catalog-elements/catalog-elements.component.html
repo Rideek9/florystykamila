@@ -10,8 +10,9 @@
           <div class="informationSection">
             <p class="categoryCode">{{item.Code}}</p>
             <i (click)="handleClick(item.Code)"
-               class="  {{likeItems.includes(item.Code) ? 'activeHeart'
-                : ''}} fa-solid fa-heart"
+               class="  {{likeItems.includes(item.Code)  ?
+               'activeHeart'
+                : ''  }} fa-solid fa-heart"
                ></i>
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>

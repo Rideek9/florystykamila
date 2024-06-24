@@ -36,9 +36,11 @@ export class CatalogElementsComponent implements OnInit {
 
   data: any;
   likeItems: string[] = [];
+  localStorageItem: string[] = [];
 
   ngOnInit() {
     this.fetchData();
+    this.getAllKeys();
   }
 
   async fetchData() {
@@ -46,13 +48,17 @@ export class CatalogElementsComponent implements OnInit {
     this.data = await response.json();
   }
 
+  getAllKeys() {
+    this.likeItems = Object.keys(localStorage);
+  }
+
   handleClick(item: string): void {
     if (this.likeItems.includes(item)) {
       this.likeItems.splice(this.likeItems.indexOf(item), 1);
+      localStorage.removeItem(item);
       return;
     }
     this.likeItems.push(item);
-
-    console.log(this.likeItems);
+    localStorage.setItem(item, JSON.stringify('active'));
   }
 }
