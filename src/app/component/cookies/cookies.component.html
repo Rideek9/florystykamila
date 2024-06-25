@@ -1,0 +1,10 @@
+<div class="{{hiddenCookie ? 'hiddenCookie' : 'activeCookie'}}">
+  <i class="mf-icon-logoMila logoStyle"></i>
+  <p>Strona wykorzystuje pliki cookies do analizowania danych do poprawienia jakości
+    świadczenia usług. Czy wyrażasz zgodę na analizę?</p>
+  <div class="buttonWrapper">
+    <button (click)="setCookie()" class="acceptButton" >Zaakceptuj</button>
+    <button (click)="deleteCookies()" class="offButton">Anuluj</button>
+  </div>
+
+</div>

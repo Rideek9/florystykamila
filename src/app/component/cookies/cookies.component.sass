@@ -1,0 +1,50 @@
+@import "../../../styles/variables"
+
+.activeCookie
+  position: fixed
+  bottom: 1rem
+  left: 50%
+  transform: translateX(-50%)
+  z-index: 2000
+  width: 80%
+  background-color: $mainColor-primary
+  border-radius: 3rem
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  padding: 1rem 2rem
+  box-shadow: 0 0 2rem 1rem $mainColor-veryDark
+
+
+  & > p
+    font-size: 1rem
+    padding: 1.5rem
+    text-align: center
+
+.logoStyle
+  font-size: 5rem
+  color: $mainColor-veryDark
+
+.buttonWrapper
+  display: flex
+  gap: 2rem
+
+
+button
+  padding: .5rem 1rem
+  font-size: 1rem
+  border-radius: 2rem
+  border: none
+  cursor: pointer
+
+
+.acceptButton
+  background-color: $thirdColor
+
+.offButton
+  background-color: $heartColors
+
+.hiddenCookie
+  display: none
+
