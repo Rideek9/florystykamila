@@ -1,11 +1,12 @@
-import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { SharedDataService } from '../../shared-data.service';
 import { Subscription } from 'rxjs';
+import { NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-like-items',
   standalone: true,
-  imports: [],
+  imports: [NgStyle],
   templateUrl: './like-items.component.html',
   styleUrl: './like-items.component.sass',
 })
