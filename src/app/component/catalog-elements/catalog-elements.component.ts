@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NameSectionComponent } from '../name-section/name-section.component';
+import { SharedDataService } from '../../shared-data.service';
 
 @Component({
   selector: 'app-catalog-elements',
@@ -37,6 +38,8 @@ export class CatalogElementsComponent implements OnInit {
   data: any;
   likeItems: string[] = [];
 
+  constructor(private sharedDataService: SharedDataService) {}
+
   ngOnInit() {
     this.fetchData();
     this.getAllKeys();
@@ -55,9 +58,11 @@ export class CatalogElementsComponent implements OnInit {
     if (this.likeItems.includes(item)) {
       this.likeItems.splice(this.likeItems.indexOf(item), 1);
       localStorage.removeItem(item);
+      this.sharedDataService.removeLikeItems(item);
       return;
     }
     this.likeItems.push(item);
     localStorage.setItem(item, JSON.stringify('active'));
+    this.sharedDataService.addLikeItems(item);
   }
 }

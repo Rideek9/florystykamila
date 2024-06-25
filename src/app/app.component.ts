@@ -9,6 +9,8 @@ import { PayAndDeliveryComponent } from './component/pay-and-delivery/pay-and-de
 import { ContactComponent } from './component/contact/contact.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { LikeItemsComponent } from './component/like-items/like-items.component';
+import { HomeComponent } from './routes/home/home.component';
+import { SharedDataService } from './shared-data.service';
 
 @Component({
   selector: 'app-root',
@@ -24,10 +26,15 @@ import { LikeItemsComponent } from './component/like-items/like-items.component'
     ContactComponent,
     FooterComponent,
     LikeItemsComponent,
+    HomeComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass',
 })
 export class AppComponent {
   phoneNumber: string = '502854612';
+
+  constructor(private sharedDataService: SharedDataService) {
+    this.sharedDataService.setPhoneNumber(this.phoneNumber);
+  }
 }
