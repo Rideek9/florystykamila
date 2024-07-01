@@ -23,12 +23,12 @@
         @for (link of listPath; track link.name) {
           @if (link.active) {
             <a href="{{ link.urlAdres }}">
-              <li>{{ link.name }}</li>
+              {{ link.name }}
             </a>
           }
         }
       </ul>
-      <a href="/" class="logo-mila-desctop">
+      <a routerLink="/" class="logo-mila-desctop">
         <i class="mf-icon-logoMila "></i>
       </a>
     </menu>

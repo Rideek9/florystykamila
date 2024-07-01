@@ -1,11 +1,12 @@
 import { Component, input } from '@angular/core';
 import { MainbuttonComponent } from '../buttons/mainbutton/mainbutton.component';
 import { IconsComponent } from '../icons/icons.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [MainbuttonComponent, IconsComponent],
+  imports: [MainbuttonComponent, IconsComponent, RouterLink],
   templateUrl: './header.component.html',
   styleUrl: './header.component.sass',
 })

@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { NameSectionComponent } from '../name-section/name-section.component';
 import { SharedDataService } from '../../shared-data.service';
+import { ShowBigComponent } from '../show-big/show-big.component';
 
 @Component({
   selector: 'app-catalog-elements',
   standalone: true,
-  imports: [NameSectionComponent],
+  imports: [NameSectionComponent, ShowBigComponent],
   templateUrl: './catalog-elements.component.html',
   styleUrl: './catalog-elements.component.sass',
 })
@@ -37,6 +38,8 @@ export class CatalogElementsComponent implements OnInit {
 
   data: any;
   likeItems: string[] = [];
+  showElement: string = '';
+  elementBig: any[] = [];
 
   constructor(private sharedDataService: SharedDataService) {}
 
@@ -64,5 +67,11 @@ export class CatalogElementsComponent implements OnInit {
     this.likeItems.push(item);
     localStorage.setItem(item, JSON.stringify('active'));
     this.sharedDataService.addLikeItems(item);
+  }
+
+  showBigElement(itemCode: string) {
+    this.showElement = itemCode;
+    this.elementBig = this.data.filter((item: any) => itemCode === item.Code);
+    console.log(this.elementBig);
   }
 }
